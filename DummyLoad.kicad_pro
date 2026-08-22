@@ -661,13 +661,17 @@
         "uuid": "c494f125-94fa-40dd-93b6-4994415a4311"
       }
     ],
-    "used_designators": "J1-2,C1-7,FB1,#PWR1-4,#PWR101-109,R1-16,U1,Q1-3",
+    "used_designators": "K1,J1-4,D1-2,A1,C1-22,FB1-2,#PWR1-11,#PWR101-127,R1-19,U1-4,Q1-4",
     "variants": []
   },
   "sheets": [
     [
       "c494f125-94fa-40dd-93b6-4994415a4311",
       "DummyLoad"
+    ],
+    [
+      "7035e8a1-0967-44a8-9d72-381f4bccd563",
+      "ControlBoard"
     ]
   ],
   "text_variables": {},
