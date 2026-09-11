@@ -1,7 +1,7 @@
 # Electronic Load
 A high-power, water-cooled electronic load designed for testing power supplies, batteries, converters, and other high-power electronics.
 
-## [Board Preview](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FIndexAsm%2FDummyLoad)
+## [Board Preview]([https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FIndexAsm%2FDummyLoad](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FIndexAsm%2FDummyLoad%2Ftree%2Fmain%2FPCB))
 Note: There is a bug in the preview. It displays components from the control board next to power board, even though they are deleted in the project.
 
 
