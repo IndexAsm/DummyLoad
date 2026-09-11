@@ -58,3 +58,10 @@ This electronic load is intended for testing:
 * USB power supplies
 * High-current power sources
 * Custom power electronics
+
+## [BOM](VOM.csv)
+
+## Gallery
+<img width="1375" height="785" alt="obraz" src="https://github.com/user-attachments/assets/67c34a0f-20a1-4ed3-a795-70d242b1f40a" />
+<img width="1375" height="785" alt="obraz" src="https://github.com/user-attachments/assets/97f14a0f-ff74-4755-a98d-8f298e5b340a" />
+
