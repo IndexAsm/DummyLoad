@@ -60,6 +60,7 @@ This electronic load is intended for testing:
 * Custom power electronics
 
 ## [BOM](BOM.csv)
+Total is around 600zł -> 160$
 
 ## Gallery
 <img width="1375" height="785" alt="obraz" src="https://github.com/user-attachments/assets/67c34a0f-20a1-4ed3-a795-70d242b1f40a" />
