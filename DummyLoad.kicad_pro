@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,15 +50,15 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
-          "hatch_gap": 1.5,
+          "hatch_gap": 0.25,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
-          "hatch_smoothing_value": 0.1,
+          "hatch_smoothing_value": 0.4,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
           "min_island_area": 10.0,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,27 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.8,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        15.0,
+        18.0,
+        20.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +256,28 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.6
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -661,7 +708,7 @@
         "uuid": "c494f125-94fa-40dd-93b6-4994415a4311"
       }
     ],
-    "used_designators": "K1,J1-4,D1-2,A1,C1-22,FB1-2,#PWR1-11,#PWR101-127,R1-19,U1-4,Q1-4",
+    "used_designators": "D2",
     "variants": []
   },
   "sheets": [
@@ -672,6 +719,14 @@
     [
       "7035e8a1-0967-44a8-9d72-381f4bccd563",
       "ControlBoard"
+    ],
+    [
+      "62006c3e-b446-4253-89b8-11cb8303d53e",
+      "MCU"
+    ],
+    [
+      "9ebe4020-df63-4733-8385-7094b7fbda87",
+      "VRM"
     ]
   ],
   "text_variables": {},
