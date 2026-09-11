@@ -59,7 +59,7 @@ This electronic load is intended for testing:
 * High-current power sources
 * Custom power electronics
 
-## [BOM](VOM.csv)
+## [BOM](BOM.csv)
 
 ## Gallery
 <img width="1375" height="785" alt="obraz" src="https://github.com/user-attachments/assets/67c34a0f-20a1-4ed3-a795-70d242b1f40a" />
