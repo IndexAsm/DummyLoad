@@ -9828,7 +9828,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.mouser.pl/en/ProductDetail/Samsung-Electro-Mechanics/CL10A225KP8NNNC?qs=sGAEpiMZZMs7ZEmUmaUL039fXNp4KT2O5Ksi0Uzem1c%3D"
+		(property "Link" ""
 			(at 257.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9839,7 +9839,7 @@
 				)
 			)
 		)
-		(property "Price" "0,36zł "
+		(property "Price" ""
 			(at 257.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12290,7 +12290,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.mouser.pl/en/ProductDetail/TDK/MMZ1608S121ATA00?qs=sGAEpiMZZMt1hubY80%2Fs8EvTGpImDuNGEL%252BoYtFtc14%3D"
+		(property "Link" ""
 			(at 266.7 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -12301,7 +12301,7 @@
 				)
 			)
 		)
-		(property "Price" "0,36zł "
+		(property "Price" ""
 			(at 266.7 49.53 90)
 			(hide yes)
 			(show_name no)
