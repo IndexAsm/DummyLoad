@@ -9581,6 +9581,18 @@
 		(uuid "632ae1f7-2702-4e63-8616-65cca2ba6913")
 	)
 	(rectangle
+		(start -80.01 -36.83)
+		(end -50.8 -7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "740e2a3b-740f-4b3b-9a95-7209222d1b6e")
+	)
+	(rectangle
 		(start -196.85 -95.25)
 		(end -152.4 -49.53)
 		(stroke
@@ -10231,6 +10243,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6be9fae-1b20-4c92-8be5-2b7b0c306b20")
+	)
+	(junction
+		(at -64.77 -20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7965442-aada-401f-9a29-bf7040caccaa")
 	)
 	(junction
 		(at 133.35 144.78)
@@ -11349,6 +11367,16 @@
 			(type default)
 		)
 		(uuid "3b0fbcbe-7971-42f2-be66-20934ed6ca35")
+	)
+	(wire
+		(pts
+			(xy -64.77 -132.08) (xy -45.72 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bffca94-d770-4b68-8bc7-cbf53e18130c")
 	)
 	(wire
 		(pts
@@ -14332,6 +14360,16 @@
 	)
 	(wire
 		(pts
+			(xy -73.66 -20.32) (xy -64.77 -20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5ba54d-d9f2-4652-b76b-521c82ce205d")
+	)
+	(wire
+		(pts
 			(xy 281.94 -76.2) (xy 281.94 -72.39)
 		)
 		(stroke
@@ -14740,6 +14778,16 @@
 		)
 		(uuid "921ec314-9376-45a1-a9e6-201861e1fc90")
 	)
+	(label "~{RST}"
+		(at -73.66 -20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "999d8eac-87d4-4fa2-9987-55355eac0f12")
+	)
 	(label "Det1"
 		(at 326.39 -134.62 0)
 		(effects
@@ -15009,6 +15057,16 @@
 			(justify left bottom)
 		)
 		(uuid "f5c93e50-ae97-44b6-bc31-7be0bf13c227")
+	)
+	(label "~{RST}"
+		(at -64.77 -132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f890ea76-c2be-4087-a32e-99662d4a91da")
 	)
 	(label "SCL"
 		(at -135.89 -67.31 0)
@@ -15517,6 +15575,99 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at -64.77 -24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "002994e4-1b64-41f9-b698-96167864ca63")
+		(property "Reference" "R41"
+			(at -62.23 -25.4001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at -62.23 -22.8601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at -66.548 -24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -64.77 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at -64.77 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at -64.77 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9633113a-4b1f-4bde-b71d-7eccbad65c59")
+		)
+		(pin "1"
+			(uuid "0aeb496b-bae4-426f-bcdd-082ce3d18ecb")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4de2d8a1-8fcd-4c2a-af19-81ce7c628646"
+					(reference "R41")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -20470,6 +20621,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at -64.77 -17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b1c6370-b002-4580-9803-f64f9adafa4a")
+		(property "Reference" "C66"
+			(at -62.23 -19.0438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at -62.23 -16.5038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at -64.77 -17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -64.77 -17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at -64.77 -17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at -64.77 -17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d535d54-e32c-479c-b433-8b70ebfafd18")
+		)
+		(pin "2"
+			(uuid "fa3eb52e-0eb1-483d-b43b-ab9df532dbe6")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4de2d8a1-8fcd-4c2a-af19-81ce7c628646"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at -68.58 -121.92 0)
 		(unit 1)
@@ -22142,6 +22386,84 @@
 			(project "ControlBoard"
 				(path "/4de2d8a1-8fcd-4c2a-af19-81ce7c628646"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at -64.77 -27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61cded33-c725-42e6-979c-d775899a7bd0")
+		(property "Reference" "#PWR062"
+			(at -64.77 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at -64.77 -33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -64.77 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -64.77 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at -64.77 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6afbb4ed-777b-47d9-9cea-79b5fe44819e")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4de2d8a1-8fcd-4c2a-af19-81ce7c628646"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -29098,6 +29420,85 @@
 			(project "ControlBoard"
 				(path "/4de2d8a1-8fcd-4c2a-af19-81ce7c628646"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "masa:Masa")
+		(at -64.77 -15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3ddd505-0b3b-47f3-a467-6796c4c3d01a")
+		(property "Reference" "#PWR0106"
+			(at -64.77 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Masa"
+			(at -64.77 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -64.77 -15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -64.77 -15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -64.77 -15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62d6fb27-1c74-4024-9d17-411e505c22e5")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4de2d8a1-8fcd-4c2a-af19-81ce7c628646"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
