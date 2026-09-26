@@ -57,6 +57,6 @@ U12,1,MCP4728,10.86,Package_SO:MSOP-10_3x3mm_P0.5mm,https://www.tme.eu/pl/en/det
 U13,1,L7805,4.25,Package_TO_SOT_SMD:TO-252-2,https://www.tme.eu/pl/en/details/l7805cdt-tr/fixed-voltage-regulators/stmicroelectronics/,
 U14,1,SD8942,,Package_TO_SOT_SMD:SOT-23-6,https://allegrolokalnie.pl/oferta/konwerter-napiecia-dcdc-sd8942,
 Y1,1,Crystal_GND24,"0,87zł",Crystal:Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm_HandSoldering,https://www.mouser.pl/en/ProductDetail/Eaton-Electronics/E2X160122X03?qs=%252BXxaIXUDbq2twjo5ayNDpw%3D%3D,
-AIO,,,99.99,,https://allegro.pl/produkt/chlodzenie-wodne-msi-mag-coreliquid-360r-v2-d1a24009-753c-47a3-874d-db242f6ccd08?offerId=18857352469
-PCB,,,$31.16
-Total,,,"582,56zł","156,26USD"
+AIO,,,99.99,,https://allegro.pl/produkt/chlodzenie-wodne-msi-mag-coreliquid-360r-v2-d1a24009-753c-47a3-874d-db242f6ccd08?offerId=18857352469,
+PCB,,,$31.16,,,
+Total,,,"582,56zł","156,26USD",,
